@@ -162,6 +162,10 @@ if TYPE_CHECKING:
         YouSearchAPIWrapper,
     )
     from langchain_community.utilities.zapier import (
+
+from langchain_community.utilities.rustchain import (
+    RustChainAPIWrapper,
+)
         ZapierNLAWrapper,
     )
 
@@ -209,6 +213,7 @@ __all__ = [
     "RequestsWrapper",
     "RivaASR",
     "RivaTTS",
+    "RustChainAPI",
     "SceneXplainAPIWrapper",
     "SearchApiAPIWrapper",
     "SQLDatabase",
@@ -270,6 +275,7 @@ _module_lookup = {
     "RequestsWrapper": "langchain_community.utilities.requests",
     "RivaASR": "langchain_community.utilities.nvidia_riva",
     "RivaTTS": "langchain_community.utilities.nvidia_riva",
+    "RustChainAPI": "langchain_community.utilities.rustchain",
     "SQLDatabase": "langchain_community.utilities.sql_database",
     "SceneXplainAPIWrapper": "langchain_community.utilities.scenexplain",
     "SearchApiAPIWrapper": "langchain_community.utilities.searchapi",

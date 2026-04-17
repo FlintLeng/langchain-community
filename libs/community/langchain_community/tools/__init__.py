@@ -448,6 +448,7 @@ __all__ = [
     "QuerySQLDataBaseTool",  # Legacy, kept for backwards compatibility.
     "QuerySparkSQLTool",
     "ReadFileTool",
+    "RustChain",
     "RedditSearchRun",
     "RedditSearchSchema",
     "RequestsDeleteTool",
@@ -487,6 +488,7 @@ __all__ = [
     "ZenGuardTool",
     "authenticate",
     "format_tool_to_openai_function",
+
 ]
 
 # Used for internal purposes
@@ -600,6 +602,7 @@ _module_lookup = {
     "QuerySQLDataBaseTool": "langchain_community.tools.sql_database.tool",
     "QuerySparkSQLTool": "langchain_community.tools.spark_sql.tool",
     "ReadFileTool": "langchain_community.tools.file_management",
+    "RustChain": "langchain_community.tools.rustchain",
     "RedditSearchRun": "langchain_community.tools.reddit_search.tool",
     "RedditSearchSchema": "langchain_community.tools.reddit_search.tool",
     "RequestsDeleteTool": "langchain_community.tools.requests.tool",
